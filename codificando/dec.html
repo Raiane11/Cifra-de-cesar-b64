@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificando</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="dec.css">
+    <link rel="stylesheet" href="dec.js">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+<body>
+
+        <header id="header"></header>
+
+            
+                <div id="primeiro">
+                    <h1>Mensagem Codificada / Decodificada</h1>
+                </div>
+ 
+                <div id="input">
+                    <h2>Digite o texto:</h2> 
+
+                    <textarea name="msg" id="entr" placeholder="Digite aqui seu texto..." rows="8"></textarea>
+                </div>
+                
+                <div id="formulario">
+                <form id="opcoes">
+                    <h2>Tipo de criptografia:</h2>
+
+                   <div id="dOpCesar"><input type="radio" id="opCesar"> <span>Cifra de Cesar</span></div>
+
+                   <div id="dOpX64"><input type="radio" id="opX64"> <span>X64</span></div>
+                </form>
+                </div>
+
+
+
+                <div id="buttons">
+                        <div id="buttonsB">
+                    <button id="cod" onclick="cod()">Codificar</button>
+                    <button id="deco" onclick="dec()">Decodificar</button>
+                        </div>
+                </div>
+
+                <div id="fundo2">
+                    <div id="mov">
+                        <h3>Incremento da Cifra</h3>
+                        <input type="number"id="incremento"placeholder="Incremento">
+                    </div>
+
+                    <div id="output">
+                        <span id="outs">Seu texto aparecerá aqui:</span>
+
+                        <div id="out">
+                        <textarea name="saida" id="saidaa"  rows="8"></textarea>
+                    </div>
+                </div>
+</body>
+<script src="dec.js"></script>
+</html> 

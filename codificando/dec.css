@@ -1,0 +1,157 @@
+*{  border-radius: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hide{display: none;}
+
+
+
+body{
+    background-color: black;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: yellow;
+}
+
+ h1{
+    display: block;
+    text-align: center;
+    margin-top: 5%; 
+    font-family: "Audiowide", sans-serif;
+    font-size: 40px;
+ }
+
+
+#input{
+    flex-direction: column;
+    background-size: cover;
+    width: 150px;
+    border: 0;
+    margin-left: 10%;
+    margin-top: 30px;
+    float: left;
+    font-size: 15px;
+}
+
+textarea{
+    width: 425px;
+    margin-top: 5px;
+}
+
+#msg{
+    width: 300px;
+}
+
+/*tipo de criptografia*/
+
+#formulario{
+    margin-bottom: 5%;
+    margin-top: 70px;
+}
+
+h2{
+    text-align: center;
+}
+
+#dOpX64{
+    margin-top: 40px;
+    width: 79px;
+    padding-top: 3px;
+    padding-left: 25px;
+    float: left;
+}
+
+#dOpCesar{
+    margin-top: 40px;
+    width: 155px;
+    height: 23px;
+    margin-right: 20px;
+    margin-left: 400px;
+    padding-top: 3px;
+    padding-left: 30px;
+    float: left;
+}
+
+
+/*incremento*/
+
+#mov{
+    background-size: cover;
+    width: 200px;
+    height: 190px;
+    margin-left: 45px;
+    padding-top: 60px;
+    padding-left: 10px;
+    display: none;
+    flex-direction: column;
+    color: yellow;
+}
+
+#incremento{
+    width: 180px;
+}
+
+/* ações*/
+
+#buttons{
+    width: 10%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 150px;
+    display: flex;
+}
+
+#buttonsB{
+    display: flex;
+    align-self: center;
+}
+
+#cod{
+    background-color: rgb(233, 233, 90);
+    width: 78px;
+    height: 23px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#deco{
+    background-color: rgb(233, 233, 90);
+    width: 78px;
+    height: 23px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+#fundo2{
+    display: flex;
+}
+
+/*output*/
+
+#output{
+    margin-left: 13%;
+    font-size: 22px;
+}
+
+#outs{
+    color: yellow;
+    margin-left: 65px;
+}
+
+#out{
+    width: 360px;
+    height: 130px;
+    margin: 0;
+    margin-left: 7px;
+    padding-left: 1px;
+    padding-right: 2px;
+}
+
+#saidaa{
+    width: 340px;
+    background-color: white;
+    color: black;
+} 
