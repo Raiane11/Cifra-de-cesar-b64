@@ -1,2 +1,2 @@
 # Cifra-de-cesar-b64
-Site para codificar e decodificar mensagens.
+Segundo projeto individual proposto pela plataforma Resilia. Um site para codificar e decodificar mensagens.
