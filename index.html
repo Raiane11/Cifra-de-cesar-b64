@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Mensagens Codificadas</title>
+</head>
+<body>
+
+
+     <main class="main-container">
+         <header class="cabecalho">
+           <h1>Mensagem Codificada / Decodificada</h1>
+         </header>
+         <div class="container-input">
+         <div class="input">
+            <textarea  id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+        </div>
+
+         <div id="output">
+            <h2>Aqui sua mensagem!</h2>
+         </div>
+        </div>
+
+         <div class="buttons">
+             <div class="container-bnt">
+                <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+             </div>
+         </div>
+     </main>
+
+     <footer class="rodape">
+        <div class="icons">
+        <a href="https://www.linkedin.com/in/raiane-gomes-b77462229/"  target="_blank" ><ion-icon name="logo-linkedin" ></ion-icon></a>
+        <a href="https://www.instagram.com/raigx/"  target="_blank" ><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="https://github.com/Raiane11"  target="_blank" ><ion-icon name="logo-github"></ion-icon></a>
+    </div>
+        <h3>Copyright © 2022 - Projeto para Resilia | Desenvolvido por Raiane Gomes</h3>
+     </footer>
+
+     <script src="js/script.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
